@@ -1,0 +1,113 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.active{
+  color:#7fe938 !important;
+}
+.navegacion{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.home{
+  background-color: rgb(79, 77, 211);
+  text-align: center;
+  padding: 3rem;
+  color: white;
+  background-image: url('https://fondosmil.co/fondo/65797.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+  margin: 2rem;
+  gap:1rem
+}
+.boton{
+  width: 8rem;
+  margin: 0.5rem;
+}
+.daddy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+ 
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.image-name {
+  display: flex;
+  align-items: center;
+}
+
+.image-name img {
+  width: 300px; /* Ajusta el tamaño de la imagen aquí */
+  height: 200px; /* Ajusta el tamaño de la imagen aquí */
+  margin-right: 20px;
+}
+
+.price-increment-decrement {
+  display: flex;
+  align-items: center;
+}
+
+.price-increment-decrement h4 {
+  margin: 0 10px;
+}
+
+Button {
+  margin-left: 10px;
+ 
+}
+
+#subtotal {
+  margin-top: 20px;
+}
+
+.card {
+  max-width: 700px; /* Establece un ancho máximo para el contenedor Card */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+
+
+.card-total{
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.botn-idpizza{
+  width: rem;
+  margin: 1rem;
+}
+
+.card-img_list {
+  width: 250px; /* Establece el ancho deseado para todas las imágenes */
+  height: 200px; /* Establece la altura deseada para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen para cubrir el espacio sin distorsionarla */
+ 
+}
+
+
